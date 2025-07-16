@@ -1,6 +1,6 @@
 # Food Allergy Implementation Guide
 
-This Implementation Guide (IG) was created as a **test project** for the purpose of learning and experimenting with the creation of FHIR resources related to food allergies — specifically, **peanut allergy**.
+This Implementation Guide (IG) was created as a **test project** for the purpose of learning and experimenting with the creation of FHIR resources related to food allergies.
 
 ## Purpose
 
