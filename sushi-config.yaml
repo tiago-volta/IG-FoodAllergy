@@ -8,7 +8,7 @@
 
 
 id: Food-Allergy
-canonical: http://openhie.com/fhir/Food-Allergy
+canonical: http://openhie.com/fhir/FoodAllergy/ImplementationGuide/Food-Allergy
 url: http://openhie.com/fhir/FoodAllergy/ImplementationGuide/Food-Allergy
 name: FoodAllergy
 title: "HL7 FHIR Implementation Guide: Food Allergy"
