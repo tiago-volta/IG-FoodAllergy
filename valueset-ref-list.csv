@@ -1,0 +1,2 @@
+URL,Version,Status,OIDs,Name,Title,Descriptino,Uses,Used,Sources
+http://openhie.com/fhir/FoodAllergy/ValueSet/FoodAllergyVS,1.0.0,active,,FoodAllergyVS,Food Allergies,"Main Food allergies.","StructureDefinition/FoodAllergy","SCT"

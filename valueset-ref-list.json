@@ -1,0 +1,16 @@
+{
+  "codeSystems" : [
+    {
+      "url" : "http://openhie.com/fhir/FoodAllergy/ValueSet/FoodAllergyVS",
+      "version" : "1.0.0",
+      "status" : "active",
+      "name" : "FoodAllergyVS",
+      "title" : "Food Allergies",
+      "description" : "Main Food allergies.",
+      "systems" : ["http://snomed.info/sct"],
+      "uses" : {
+      },
+      "StructureDefinition-FoodAllergy.html" : "Food Allergy"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+Source File	Size	loadResources	load	generateSnapshots	load-configure	scan	loadDepInfo	loadInfo	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-Food-Allergy.json	2945	-	0	0	0	0	0	0	12	97	0	0	0	0	0	0	0	0	0	0	75	60	0	0	0	3	0	3
+fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json	1195	22	0	0	0	0	0	0	1	43	0	0	0	0	0	0	0	0	0	0	18	18	0	0	0	0	0	0
+fsh-generated/resources/StructureDefinition-FoodAllergy.json	3057	18	0	59	0	0	0	0	0	70	0	0	1	0	0	0	0	2	0	0	208	839	0	0	0	12	0	1
+fsh-generated/resources/StructureDefinition-FoodAllergyModel.json	5341	17	0	27	0	0	0	0	0	25	0	0	0	0	0	0	0	0	0	0	94	257	0	0	0	5	0	1
+fsh-generated/resources/ValueSet-FoodAllergyVS.json	1427	13	0	0	0	0	0	0	1	589	0	0	0	0	0	0	0	0	0	0	21	1578	0	0	0	1	0	0

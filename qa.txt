@@ -1,0 +1,30 @@
+FoodAllergy : Validation Results
+=========================================
+
+err = 2, warn = 8, info = 1
+IG Publisher Version: 2.0.9
+Generated Wed Jul 16 22:08:18 UTC 2025. FHIR version 4.0.1 for Food-Allergy#1.0.0 (canonical = http://openhie.com/fhir/FoodAllergy)
+ Build Errors : 0 / 5 / 0
+ /work/fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy : 0 / 0 / 1
+ /work/fsh-generated/resources/ImplementationGuide-Food-Allergy : 0 / 0 / 1
+ /work/fsh-generated/resources/StructureDefinition-FoodAllergy : 0 / 2 / 2
+ /work/fsh-generated/resources/StructureDefinition-FoodAllergyModel : 0 / 0 / 1
+ /work/fsh-generated/resources/ValueSet-FoodAllergyVS : 2 / 1 / 1
+</table>
+== n/a ==
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource AllergyIntolerance/MyPeanutAllergy.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated/resources/AllergyIntolerance-MyPeanutAllergy.json ==
+== fsh-generated/resources/ImplementationGuide-Food-Allergy.json ==
+== fsh-generated/resources/StructureDefinition-FoodAllergy.json ==
+INFORMATION: StructureDefinition/FoodAllergy: StructureDefinition.snapshot.element[4].binding.extension[0]: The extension http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.2.0 is deprecated
+WARNING: StructureDefinition/FoodAllergy: StructureDefinition.snapshot.element[8].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty' to 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty|5.2.0'
+WARNING: StructureDefinition/FoodAllergy: StructureDefinition.differential.element[2].type[0].profile[0]: There are multiple different potential matches for the url 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty'. It might be a good idea to fix to the correct version to reduce the likelihood of a wrong version being selected by an implementation/implementer, or use the [IG Parameter `pin-canonicals`](https://hl7.org/fhir/tools/CodeSystem-ig-parameters.html). Using version '5.2.0', found versions: 4.0.1, 5.2.0. Suggested fix: change the canonical reference from 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty' to 'http://hl7.org/fhir/StructureDefinition/allergyintolerance-certainty|5.2.0'
+== fsh-generated/resources/StructureDefinition-FoodAllergyModel.json ==
+== fsh-generated/resources/ValueSet-FoodAllergyVS.json ==
+ERROR: ValueSet/FoodAllergyVS: ValueSet.compose.include[0].concept[1]: The code '48281000119104' is not valid in the system http://snomed.info/sct (Unknown code '48281000119104' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201')
+ERROR: ValueSet/FoodAllergyVS: ValueSet.compose.include[0].concept[6]: The code '266167000' is not valid in the system http://snomed.info/sct (Unknown code '266167000' in the CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20250201')
+WARNING: ValueSet/FoodAllergyVS: ValueSet: Published value sets SHOULD conform to the ShareableValueSet profile, which says that the element ValueSet.experimental is mandatory, but it is not present

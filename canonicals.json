@@ -1,0 +1,30 @@
+[
+  {
+    "id" : "Food-Allergy",
+    "type" : "ImplementationGuide",
+    "url" : "http://openhie.com/fhir/FoodAllergy/ImplementationGuide/Food-Allergy",
+    "version" : "1.0.0",
+    "name" : "FoodAllergy"
+  },
+  {
+    "id" : "FoodAllergy",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.com/fhir/FoodAllergy/StructureDefinition/FoodAllergy",
+    "version" : "1.0.0",
+    "name" : "FoodAllergy"
+  },
+  {
+    "id" : "FoodAllergyModel",
+    "type" : "StructureDefinition",
+    "url" : "http://openhie.com/fhir/FoodAllergy/StructureDefinition/FoodAllergyModel",
+    "version" : "1.0.0",
+    "name" : "FoodAllergyModel"
+  },
+  {
+    "id" : "FoodAllergyVS",
+    "type" : "ValueSet",
+    "url" : "http://openhie.com/fhir/FoodAllergy/ValueSet/FoodAllergyVS",
+    "version" : "1.0.0",
+    "name" : "FoodAllergyVS"
+  }
+]
