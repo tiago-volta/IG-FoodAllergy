@@ -1,0 +1,16 @@
+Logical: FoodAllergyModel
+Title: "Food Allergy Logical Model"
+Description: "Food Allergy information model"
+
+* patient 1..1 Reference "The person that has the allergy"
+* allergen 1..1 CodeableConcept "The substance that the person is allergic to the substance- from a list of substances"
+* clinicalStatus 1..1 CodeableConcept "The status of the allergy - if it is active or resolved"
+* verificationStatus 1..1 CodeableConcept "The verification status of the allergy - if it is confirmed or suspected"
+* recordedDate 0..1 dateTime "When the allergy was reported"
+* recorder 0..1 Reference "Who recorded the allergy"
+* asserter 0..1 Reference "Who asserted the allergy"
+* reactions 0..* BackboneElement "Known past reactions to the allergen"
+* reactions.manifestation 0..1 CodeableConcept "How the reaction manifested itself"
+* reactions.certitude 0..1 CodeableConcept "How certain we are that the cause of the reaction was the allergen indicated"
+* reactions.exposure 0..1 CodeableConcept "The exposure route to the substance"
+* reactions.note 0..1 string "Additional text note about the allergic reaction"
