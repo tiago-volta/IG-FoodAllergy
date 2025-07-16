@@ -7,15 +7,15 @@
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
 
-id: my-ig
-canonical: http://example.com/fhir/example
-url: http://example.com/fhir/example/ImplementationGuide/my-ig
-name: ExampleIG
-title: "HL7 FHIR Implementation Guide: Example IG Release 1 - US Realm | STU1"
+id: Food-Allergy
+canonical: http://openhie.com/fhir/Food-Allergy
+url: http://openhie.com/fhir/FoodAllergy/ImplementationGuide/Food-Allergy
+name: FoodAllergy
+title: "HL7 FHIR Implementation Guide: Food Allergy"
 description: Example IG exercises many of the fields in a SUSHI configuration.
 status: active
 license: CC0-1.0
-date: 2020-02-26
+date: 2025-07-16
 version: 1.0.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
@@ -43,10 +43,10 @@ publisher:
 
 # ContactDetail is required by the template.
 contact:
-  - name: Bob Smith
+  - name: Tiago Volta
     telecom:
       - system: email
-        value: bobsmith@example.com
+        value: tiagovolta2@gmail.com
         use: work
 
 # The jurisdiction can be a single item or a list. The FHIR Shorthand
@@ -131,6 +131,8 @@ jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
 pages:
   index.xml:
     title: Home
+  intro.md:
+    title: Introduction
 #  guidance.md:
   changes.xml:
   downloads.xml:
